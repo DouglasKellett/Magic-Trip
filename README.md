@@ -1,2 +1,5 @@
 # Magic-Trip
-Did someone drop an magic?
+Audio credit:
+Minecart sound: https://www.youtube.com/watch?v=3QDwOlQbJ5Y (edited)
+Portal sound: https://www.youtube.com/watch?v=kgAMCO2g2q0
+boulder sound: https://www.youtube.com/watch?v=vHv-lBL2C2w
