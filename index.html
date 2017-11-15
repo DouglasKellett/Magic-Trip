@@ -28,10 +28,13 @@
       <img id="yellow.jpg" src="yellow.jpg">
       <img id="portal.jpg" src="portal.jpg">
       <img id="magic.jpg" src="magic.jpg">
+      <audio id="boulder.mp3" src="boulder.mp3"></audio>
+      <audio id="cart.mp3" src="Cart.mp3"></audio>
+      <audio id="portal.mp3" src="portal.mp3"></audio>
     </a-assets>
     <a-entity light="color: #FFFFFF; intensity: 1; type: point" position="0 0 -50"></a-entity>
-    <a-entity scale="2 2 2" position="0.5 0 -40" rotation="0 90 0" obj-model="obj: #magic-obj" material="src: magic.jpg" animation="property: rotation; dur: 50000; loop: true; to: 5000 90 0"></a-entity>
-    <a-plane scale="3.5 3.5 1" position="0 0.2 -35" material="src: portal.jpg" animation="property: rotation; dur: 50000; loop: true; to: 0 0 5000"></a-plane>
+    <a-entity scale="2 2 2" position="0.5 0 -45" rotation="0 90 0" obj-model="obj: #magic-obj" material="src: magic.jpg" animation="property: rotation; dur: 50000; loop: true; to: 5000 90 0" sound="src: #boulder.mp3; autoplay: true; loop: true;"></a-entity>
+    <a-plane scale="3.5 3.5 1" position="0 0.2 -35" material="src: portal.jpg" animation="property: rotation; dur: 50000; loop: true; to: 0 0 5000" sound="src: #portal.mp3; autoplay: true; loop: true;"></a-plane>
     <a-entity scale="0.02 0.02 0.02" position="1.2 0 -3" obj-model="obj: #rock-obj" material="src: rock.jpg; roughness: 1; metalness: 0"></a-entity>
     <a-entity scale="0.1 0.1 0.1" position="0 0.1 9" obj-model="obj: #boulder-obj" material="src: rock.jpg; repeat: 1 1; roughness: 1; metalness: 0"
                            animation="property: position; dur: 50000; loop: true; to: -0 0.1 -48"
@@ -55,7 +58,7 @@
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -28" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -32" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -36" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
-    <a-entity position="0 -0.2 4" rotation="0 90 0" color="#C1968D" obj-model="obj: #cart-obj; mtl: #cart-mtl"
+    <a-entity position="0 -0.2 4" rotation="0 90 0" color="#C1968D" obj-model="obj: #cart-obj; mtl: #cart-mtl" sound="src: #cart.mp3; autoplay: true; loop: true;"
                           animation="property: position; dur: 50000; loop: true; to: 0 -0.2 -50"></a-entity>
     <a-entity position="0.08 -0.55 1.5" scale="0.014 0.014 0.014" obj-model="obj: #cart-tracks-obj; mtl: #cart-tracks-mtl"></a-entity>
     <a-entity position="0.08 -0.55 -2.2" scale="0.014 0.014 0.014" obj-model="obj: #cart-tracks-obj; mtl: #cart-tracks-mtl"></a-entity>
