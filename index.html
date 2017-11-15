@@ -33,10 +33,10 @@
     <a-entity light="color: #000000; intensity: 1; type: point" position="0 1 5"></a-entity>
     <a-entity scale="0.01 0.01 0.01" position="0.65 0.7 -1" obj-model="obj: #lantern-obj" material="src: Steel.jpg; repeat: 1 1; roughness: 1; metalness: 1"></a-entity>
     <a-entity scale="0.01 0.01 0.01" position="-1 0.7 -19" obj-model="obj: #lantern-obj" material="src: Steel.jpg; repeat: 1 1; roughness: 1; metalness: 1"></a-entity>
-    <a-entity scale="0.01 0.01 0.01" position="0.02 -0.2 4.45" rotation="0 0 -20" obj-model="obj: #pickaxe-obj; mtl: #pickaxe-mtl" animation="property: position; dur: 50000;
-                           loop: true; to: 0.02 -0.2 -49.55"></a-entity>
-    <a-entity scale="0.008 0.008 0.008" position="-0.12 -0.05 4.55" rotation="-0 60 -80" obj-model="obj: #hardhat-obj" material="color: #F3F302; repeat: 1 1; roughness: 1; metalness: 0" animation="property: position; dur: 50000;
-                           loop: true; to: -0.12 -0.05 -49.45"></a-entity>
+    <a-entity scale="0.01 0.01 0.01" position="0.02 -0 4.45" rotation="0 0 -20" obj-model="obj: #pickaxe-obj; mtl: #pickaxe-mtl" animation="property: position; dur: 50000;
+                           loop: true; to: 0.02 -0 -49.55"></a-entity>
+    <a-entity scale="0.008 0.008 0.008" position="-0.12 -0.03 4.55" rotation="-0 60 -80" obj-model="obj: #hardhat-obj" material="color: #F3F302; repeat: 1 1; roughness: 1; metalness: 0" animation="property: position; dur: 50000;
+                           loop: true; to: -0.12 -0.03 -49.45"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -2" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -6" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -10" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
@@ -47,8 +47,8 @@
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -28" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -32" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
     <a-entity scale="0.05 0.05 0.05" position="0 -0.8 -36" material="src: wood.jpg; repeat: 1 1; roughness: 1; metalness: 0" obj-model="obj: #supports-obj"></a-entity>
-    <a-entity position="0 0 4" rotation="0 90 0" color="#C1968D" obj-model="obj: #cart-obj; mtl: #cart-mtl"
-    animation="property: position; dur: 50000; loop: true; to: 0 0 -50"></a-entity>
+    <a-entity position="0 -0.2 4" rotation="0 90 0" color="#C1968D" obj-model="obj: #cart-obj; mtl: #cart-mtl"
+    animation="property: position; dur: 50000; loop: true; to: -0.2 0 -50"></a-entity>
     <a-entity position="0.08 -0.55 1.5" scale="0.014 0.014 0.014" obj-model="obj: #cart-tracks-obj; mtl: #cart-tracks-mtl"></a-entity>
     <a-entity position="0.08 -0.55 -2.2" scale="0.014 0.014 0.014" obj-model="obj: #cart-tracks-obj; mtl: #cart-tracks-mtl"></a-entity>
     <a-entity position="0.08 -0.55 -5.9" scale="0.014 0.014 0.014" obj-model="obj: #cart-tracks-obj; mtl: #cart-tracks-mtl"></a-entity>
@@ -70,7 +70,7 @@
     <a-plane scale="5 5 5" position="0 0 10" color="#000000" rotation="180 0 0"></a-plane>
    <a-sky src="sky.jpg"></a-sky>
    <a-entity position="0 -1 3.8" animation="property: position; dur: 50000;
-                          loop: true; to: 0 -1 -50">
+                          loop: true; to: -0.2 -1 -50">
     <a-camera></a-camera>
    </a-entity>
   </a-scene>
