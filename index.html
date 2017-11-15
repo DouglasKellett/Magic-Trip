@@ -18,6 +18,7 @@
       <a-asset-item id="pickaxe-mtl" src="Pickaxe.mtl"></a-asset-item>
       <a-asset-item id="lantern-obj" src="lantern.obj"></a-asset-item>
       <a-asset-item id="boulder-obj" src="Boulder.obj"></a-asset-item>
+      <a-asset-item id="rock-obj" src="Rock.obj"></a-asset-item>
       <img id="sky.jpg" src="sky.jpg">
       <img id="Steel.jpg" src="Steel.jpg">
       <img id="rock.jpg" src="rock.jpg">
@@ -25,6 +26,7 @@
       <img id="soil.jpg" src="soil.jpg">
       <img id="yellow.jpg" src="yellow.jpg">
     </a-assets>
+    <a-entity scale="0.1 0.1 0.1" position="1.5 0 -3" obj-model="obj: #rock"></a-entity>
     <a-entity scale="0.1 0.1 0.1" position="0 0.1 9" obj-model="obj: #boulder-obj" material="src: rock.jpg; repeat: 1 1; roughness: 1; metalness: 0"
                            animation="property: position; dur: 50000; loop: true; to: -0 0.1 -50"
                            animation__2="property: rotation; dur: 50000; loop: true; to: -5000 0 0"></a-entity>
